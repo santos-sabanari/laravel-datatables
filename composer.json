@@ -1,0 +1,52 @@
+{
+    "name": "santos-sabanari/laravel-datatables",
+    "description": "A minimalist datatables",
+    "keywords": [
+        "santos-sabanari",
+        "laravel-datatables"
+    ],
+    "homepage": "https://github.com/santos-sabanari/laravel-datatables",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Santos Sabanari",
+            "email": "sabanari.santos@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.4",
+        "illuminate/support": "^8.0",
+        "livewire/livewire": "^2.3"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^6.0",
+        "phpunit/phpunit": "^9.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "SantosSabanari\\LaravelDatatables\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SantosSabanari\\LaravelDatatables\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "SantosSabanari\\LaravelDatatables\\LaravelDatatablesServiceProvider"
+            ]
+        }
+    }
+}

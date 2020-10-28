@@ -1,0 +1,12 @@
+
+
+Code Coverage Report:
+  2020-10-06 19:33:18
+
+ Summary:
+  Classes:  0.00% (0/3)
+  Methods: 11.11% (1/9)
+  Lines:   34.09% (15/44)
+
+SantosSabanari\LaravelDatatables\LaravelDatatablesServiceProvider
+  Methods:  50.00% ( 1/ 2)   Lines:  93.75% ( 15/ 16)
