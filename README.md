@@ -1,15 +1,8 @@
-# Laravel Datatables
-
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/santos-sabanari/laravel-datatables.svg?style=flat-square)](https://packagist.org/packages/santos-sabanari/laravel-datatables)
-[![Build Status](https://img.shields.io/travis/santos-sabanari/laravel-datatables/master.svg?style=flat-square)](https://travis-ci.org/santos-sabanari/laravel-datatables)
-[![Quality Score](https://img.shields.io/scrutinizer/g/santos-sabanari/laravel-datatables.svg?style=flat-square)](https://scrutinizer-ci.com/g/santos-sabanari/laravel-datatables)
-[![Total Downloads](https://img.shields.io/packagist/dt/santos-sabanari/laravel-datatables.svg?style=flat-square)](https://packagist.org/packages/santos-sabanari/laravel-datatables)
-
-A minimalist datatables.
+![](https://banners.beyondco.de/Laravel%20Datatables.png?theme=light&packageManager=composer+require&packageName=santos-sabanari%2Flaravel-datatables&pattern=texture&style=style_1&description=A+minimalist+datatables&md=1&showWatermark=0&fontSize=100px&images=code)
 
 ## Installation
 
-You can install the package via composer:
+Install the package via composer:
 
 ```bash
 composer require santos-sabanari/laravel-datatables
